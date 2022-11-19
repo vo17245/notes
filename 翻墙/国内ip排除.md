@@ -1,0 +1,12 @@
+```
+*bili
+*hdslb
+translate.google.cn
+*zhihu
+blog.csdn.net
+*leetcode.cn
+cn.bing.com
+*tencent
+*cn.aliyun
+upos-hz-mirrorakam.akamaized.net
+```

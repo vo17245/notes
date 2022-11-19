@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="vo17245.mapper.UserMapper">
+    <!--
+        定义resultMap中列名到属性名的映射
+        id: 定义主键的映射
+        result: 定义非主键列名的映射
+    -->
+    <resultMap id="UserReslutMap" type="vo17245.User">
+        <result column="user_name" property="UserName">
+    <resultMap/>
+    <!--
+        将resultType 改为 resultMap
+    -->
+    <select id="selectAll" resultType="UserResultMap">
+        select * from user;
+    </select>
+</mapper>

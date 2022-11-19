@@ -1,0 +1,1 @@
+/usr/bin/c++   -O0 -Wall -g2 -ggdb  -rdynamic CMakeFiles/bst.dir/BST.cpp.o CMakeFiles/bst.dir/main.cpp.o  -o bst 
