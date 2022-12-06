@@ -1,0 +1,3 @@
+# 将静态资源放到static目录下来配置静态资源
+
+放到resources/static目录下的文件会被springboot自动映射成静态文件
