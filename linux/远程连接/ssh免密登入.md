@@ -40,5 +40,11 @@ function ssh-copy-id([string]$userAtMachine, $args){
 然后再执行
 ssh-copy-id -i [公钥路径] [username]@[remotehost]
 
+## 注意事项
+
+私钥的文件名是 id_rsa
+公钥的文件名是 id_rsa.pub
+这是openssh的默认密钥文件名，如果不指定连接时的密钥会查找这两个文件，如果使用了其他文件名需要手动在配置文件中指定密钥文件
+
 
  
